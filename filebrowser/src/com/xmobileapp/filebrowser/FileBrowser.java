@@ -69,8 +69,8 @@ public class FileBrowser extends ListActivity {
 			fill(aDirectory.listFiles());
 		}else{
 		 
-			new AlertDialog.Builder(this).setTitle("Ã· æ")
-			.setMessage("In this case does not support the file open operation£°")
+			new AlertDialog.Builder(this).setTitle(" ‚Äú)
+			.setMessage("In this case does not support the file open operation‚Äù)
 			.create().show();
 		}
 	}
